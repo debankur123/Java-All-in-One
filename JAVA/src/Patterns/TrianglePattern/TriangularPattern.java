@@ -7,8 +7,9 @@
         so here are n rows,
         the row has i no of col,
         and we have to print j
+        EXT50
 */
-package Patterns;
+package Patterns.TrianglePattern;
 import java.util.Scanner;
 public class TriangularPattern {
     public static void main(String[] args) {
