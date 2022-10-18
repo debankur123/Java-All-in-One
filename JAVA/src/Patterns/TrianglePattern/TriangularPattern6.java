@@ -1,33 +1,29 @@
 /*
     We have to print a Triangular pattern
         1
-        2 3
-        3 4 5
-        4 5 6 7
-        5 6 7 8 9
+        2 1
+        3 2 1
+        4 3 2 1
+        5 4 3 2 1
         so here are n rows,
         the row has 'i' no of col,
-        and we have to print the  value of row and increment it with 1 ,
-        if there are 3 rows the starting will be 1 for row 1
-        2 for row 2 and 3 for row 3
+        we have to print a formula that will decrement of row value after printing 1st row no
 */
 package Patterns.TrianglePattern;
 import java.util.*;
-public class TriangularPattern5 {
+public class TriangularPattern6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int row = 1;
         while (row <= N){
             int col = 1;
-            int count = row;
             while (col <= row){
-                System.out.print(count + " ");
-                count = count + 1;
+                System.out.print(row-col+1 + " ");
                 col = col + 1;
             }
             System.out.println();
-            row = row + 1 ;
+            row = row + 1;
         }
     }
 }
