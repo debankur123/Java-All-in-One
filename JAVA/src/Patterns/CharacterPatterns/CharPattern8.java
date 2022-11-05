@@ -8,7 +8,7 @@
        n no of rows,
        the row has i no of cols,
        so we have to find the first character and then increment it by 1
-       We have to print ('A' + n - row)
+       We have to print ('A' + n - row) which is defined by ch.
  */
 package Patterns.CharacterPatterns;
 import java.util.*;
