@@ -1,10 +1,10 @@
 /*
   We have to print a 2D matrix/Array in a spiral form 
   The matrix is given below :
-	11 12 13 14
-	21 22 23 24
-	31 32 33 34
-	41 42 43 44
+11 12 13 14
+21 22 23 24
+31 32 33 34
+41 42 43 44
   	
   	Now the output will be in a spiral way :
   	11,12,13,14,24,34,44,43,42,41,31,21,22,23,33,32

@@ -11,11 +11,11 @@ public class WavePrint {
         for(int i=0;i<arr.length;i++) {
             if(i%2==0) {
                 for(int j=0;j<arr[i].length;j++) {
-                    System.out.println(arr[i][j] + " ");
+                    System.out.print(arr[i][j] + " ");
                 }
             }else {
                 for(int j=arr[i].length-1;j>=0;j--) {
-                    System.out.println(arr[i][j] + " ");
+                    System.out.print(arr[i][j] + " ");
                 }
             }
         }
@@ -30,7 +30,6 @@ public class WavePrint {
         int[][] arr = new int[rows][cols];
         for (int i=0;i<rows;i++){
             for (int j=0;j<cols;j++){
-                System.out.print("Element at " + i + "th row" + j + "th col");
                 arr[i][j] = sc.nextInt();
             }
         }
