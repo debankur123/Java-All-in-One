@@ -1,4 +1,4 @@
-package CRX_Leetcode_1DArrays;
+package CRX_Leetcode_1DArrays.src.CRX_Leetcode_1DArrays;
 import java.util.*;
 public class FindUnique {
 	static Scanner sc = new Scanner(System.in);
